@@ -6,10 +6,10 @@ Frankie Hin Ming Chik is a doctoral student in East Asian Languages and Civiliza
 
 2. Publication 
 * *Translation*  
-  “Qing (情) and Emotion in Early Chinese Thought.” 早期中國思想中的「情」與情感 by Bruya Brain. In * *Hanji yu hanxue* In press.
-  “Shangqing Scriptures as Performative Texts.”上清經的表演性質by Campany, Robert Ford. (Timothy Wai Keung Chan陳偉強proof read). In Chan Wai Keung陳偉強 ed.  * *Daojiao xiulan yu keyi de wenxue tiyan* Jiangsu: Fenghuang chubanshe, 2018, pp. 25-53.
+  “Qing (情) and Emotion in Early Chinese Thought.” 早期中國思想中的「情」與情感 by Bruya Brain. In *Hanji yu hanxue* In press.
+  “Shangqing Scriptures as Performative Texts.”上清經的表演性質by Campany, Robert Ford. (Timothy Wai Keung Chan陳偉強proof read). In Chan Wai Keung陳偉強 ed.  *Daojiao xiulan yu keyi de wenxue tiyan* Jiangsu: Fenghuang chubanshe, 2018, pp. 25-53.
 * *Book Reviews*
-  * *Confucius beyond the Analects*, by Hunter Michael * *Dao: A Journal of Comparative Philosophy* Issue 8.1 (2019), pp. 137-141.
+  * *Confucius beyond the Analects*, by Hunter Michael. *Dao: A Journal of Comparative Philosophy* Issue 8.1 (2019), pp. 137-141.
 
 3. Python Code  
 import random  
