@@ -61,5 +61,5 @@ if loser==1:
 elif loser==2:
     print("player 2 is the loser.")
 
-4. Link
+4. Link 
 <https://github.com/FrankieChik/python-for-the-humanities-homework/blob/master/doc-folder/secondfile>
