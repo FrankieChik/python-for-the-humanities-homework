@@ -16,50 +16,50 @@ import random
 
 list=[]  
 list2=[]  
-card1=random.randrange(1, 11, 1). 
-card2=random.randrange(1, 11, 1). 
-list.append(card1). 
-list2.append(card2). 
-print(card1). 
-print(card2). 
+card1=random.randrange(1, 11, 1) 
+card2=random.randrange(1, 11, 1) 
+list.append(card1)  
+list2.append(card2)  
+print(card1)  
+print(card2)  
 winner=0  
-loser=0. 
+loser=0  
 
-answer="yes". 
+answer="yes"  
 while answer=="yes":  
-    answer=input("Do you want another card?"). 
+    answer=input("Do you want another card?")  
     if answer=="yes":  
-        card1=random.randrange(1, 11, 1). 
-        card2=random.randrange(1, 11, 1). 
-        list.append(card1). 
-        list2.append(card2). 
-        print(card1). 
-        print(card2). 
+        card1=random.randrange(1, 11, 1)  
+        card2=random.randrange(1, 11, 1)  
+        list.append(card1)  
+        list2.append(card2)  
+        print(card1)  
+        print(card2)  
         if sum(list)==21:  
-            winner=1. 
-            break. 
+            winner=1  
+            break  
         if sum(list2)==21:  
-            winner=2. 
-            break. 
+            winner=2  
+            break  
         if sum(list)>21:  
-            loser=1. 
-            break. 
+            loser=1  
+            break  
         if sum(list2)>21:  
-            loser=2. 
-            break. 
+            loser=2  
+            break  
 if winner==0:  
     if sum(list)>sum(list2):  
         winner=1. 
     elif sum(list)<sum(list2):  
-        winner=2. 
+        winner=2  
 if winner==1:  
-    print("player 1 is the winner."). 
+    print("player 1 is the winner.")  
 elif winner==2:  
-    print("player 2 is the winner."). 
+    print("player 2 is the winner.")  
 if loser==1:  
-    print("plater 1 is the loser."). 
+    print("plater 1 is the loser.")  
 elif loser==2:  
-    print("player 2 is the loser."). 
+    print("player 2 is the loser.") 
 
-4. Link. 
+4. Link 
 <https://github.com/FrankieChik/python-for-the-humanities-homework/blob/master/doc-folder/secondfile>
