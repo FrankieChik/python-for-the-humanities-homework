@@ -3,7 +3,19 @@ import os
 for path, dirs, files in os.walk ('/Users/hinmingfrankiechik/Desktop/text_files'):
     for file in files:
         print(os.path.join(path, file))
-    
+
+path = "/Users/hinmingfrankiechik/Desktop/text_files/2008"
+files= os.listdir(path)
+txts = []
+for file in files:
+    position = path+'/'+ file
+    print (position)           
+    with open(position, "r") as f:           
+        lines = f.readlines()   
+        for line in lines:
+            txts.append(line)
+        f.close()
+print (txts)
 
 with os.scandir('/Users/hinmingfrankiechik/Desktop/text_files') as dircontent:
     for name in dircontent:
